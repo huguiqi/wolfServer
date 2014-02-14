@@ -1,6 +1,6 @@
  
 
-package com.jje.gateway.util.passbook.signing;
+package com.wolf.common.utils.passbook.signing;
 
 import java.security.PrivateKey;
 import java.security.cert.X509Certificate;

@@ -1,8 +1,8 @@
  
 
-package com.jje.gateway.util.passbook;
+package com.wolf.common.utils.passbook;
 
-import com.jje.gateway.util.passbook.enums.PKBarcodeFormat;
+import com.wolf.common.utils.passbook.enums.PKBarcodeFormat;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.builder.ToStringBuilder;
 

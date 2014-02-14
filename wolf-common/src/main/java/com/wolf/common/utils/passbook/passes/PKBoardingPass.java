@@ -1,7 +1,7 @@
  
-package com.jje.gateway.util.passbook.passes;
+package com.wolf.common.utils.passbook.passes;
 
-import com.jje.gateway.util.passbook.enums.PKTransitType;
+import com.wolf.common.utils.passbook.enums.PKTransitType;
 
 import java.util.List;
 

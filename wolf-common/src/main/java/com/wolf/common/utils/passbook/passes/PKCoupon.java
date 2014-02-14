@@ -1,5 +1,5 @@
  
-package com.jje.gateway.util.passbook.passes;
+package com.wolf.common.utils.passbook.passes;
 
 public class PKCoupon extends PKGenericPass {
 

@@ -1,6 +1,6 @@
  
 
-package com.jje.gateway.util.passbook;
+package com.wolf.common.utils.passbook;
 
 import org.apache.commons.lang.builder.ToStringBuilder;
 

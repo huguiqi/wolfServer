@@ -1,8 +1,8 @@
  
-package com.jje.gateway.util.passbook.passes;
+package com.wolf.common.utils.passbook.passes;
 
-import com.jje.gateway.util.passbook.IPKValidateable;
-import com.jje.gateway.util.passbook.PKField;
+import com.wolf.common.utils.passbook.IPKValidateable;
+import com.wolf.common.utils.passbook.PKField;
 
 import java.util.ArrayList;
 import java.util.List;

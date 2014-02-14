@@ -1,14 +1,14 @@
 package com.wolf.passbook;
 
 
-import com.wolf.passbook.domain.PKBarcode;
-import com.wolf.passbook.domain.PKField;
-import com.wolf.passbook.domain.PKLocation;
-import com.wolf.passbook.domain.PKPass;
-import com.wolf.passbook.domain.passes.PKStoreCard;
-import com.wolf.passbook.domain.signing.PKSigningInformation;
-import com.wolf.passbook.domain.signing.PKSigningUtil;
 
+import com.wolf.common.utils.passbook.PKBarcode;
+import com.wolf.common.utils.passbook.PKField;
+import com.wolf.common.utils.passbook.PKLocation;
+import com.wolf.common.utils.passbook.PKPass;
+import com.wolf.common.utils.passbook.passes.PKStoreCard;
+import com.wolf.common.utils.passbook.signing.PKSigningInformation;
+import com.wolf.common.utils.passbook.signing.PKSigningUtil;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.springframework.stereotype.Component;
@@ -22,7 +22,6 @@ import javax.ws.rs.core.Response;
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileOutputStream;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;

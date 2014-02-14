@@ -1,12 +1,12 @@
  
 
-package com.jje.gateway.util.passbook.signing;
+package com.wolf.common.utils.passbook.signing;
 
 import com.google.common.hash.HashCode;
 import com.google.common.hash.HashFunction;
 import com.google.common.hash.Hashing;
 import com.google.common.io.Files;
-import com.jje.gateway.util.passbook.PKPass;
+import com.wolf.common.utils.passbook.PKPass;
 import org.apache.commons.codec.binary.Hex;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
@@ -117,7 +117,7 @@ public final class PKSigningUtil {
     }
 
     public static PKSigningInformation loadSigningInformationFromPKCS12FileAndIntermediateCertificateFile(final String passbookDirPath,
-            final String keyStorePassword) throws IOException, NoSuchAlgorithmException, CertificateException,
+            final String keyStorePassword,String fileName) throws IOException, NoSuchAlgorithmException, CertificateException,
             KeyStoreException, NoSuchProviderException, UnrecoverableKeyException{
         addBCProvider();
 

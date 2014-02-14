@@ -1,5 +1,5 @@
  
-package com.jje.gateway.util.passbook;
+package com.wolf.common.utils.passbook;
 
 import java.util.List;
 
