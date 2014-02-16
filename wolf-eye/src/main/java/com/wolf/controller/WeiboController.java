@@ -15,8 +15,6 @@ import weibo4j.model.Comment;
 import weibo4j.model.WeiboException;
 import weibo4j.org.json.JSONObject;
 
-import javax.ws.rs.FormParam;
-import javax.ws.rs.GET;
 import java.util.HashMap;
 import java.util.Map;
 

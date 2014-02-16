@@ -65,6 +65,28 @@
     </build>
 
     <dependencies>
+
+        <!-- javax servlet-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+            <type>jar</type>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>jsp-api</artifactId>
+            <version>2.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+            <type>jar</type>
+            <scope>compile</scope>
+        </dependency>
         <!-- commons -->
         <dependency>
             <groupId>commons-lang</groupId>
@@ -245,57 +267,57 @@
 
     </dependencies>
 
-    <!--<distributionManagement>-->
-        <!--<repository>-->
-            <!--<id>archiva.internal</id>-->
-            <!--<name>maven2</name>-->
-            <!--<url>http://repository.sonatype.org/</url>-->
-        <!--</repository>-->
-    <!--</distributionManagement>-->
+    <distributionManagement>
+        <repository>
+            <id>archiva.internal</id>
+            <name>maven2</name>
+            <url>http://repository.sonatype.org/</url>
+        </repository>
+    </distributionManagement>
 
-    <!--<repositories>-->
-        <!--<repository>-->
-            <!--<id>archiva.default</id>-->
-            <!--<url>http://repository.sonatype.org/</url>-->
-        <!--</repository>-->
-        <!--<repository>-->
-            <!--<id>archiva.2</id>-->
-            <!--<url>http://www.mvnbrowser.com/</url>-->
-        <!--</repository>-->
-        <!--<repository>-->
-            <!--<id>archiva.3</id>-->
-            <!--<url>http://www.mvnrepository.com/</url>-->
-        <!--</repository>-->
-        <!--<repository>-->
-            <!--<id>archiva.4</id>-->
-            <!--<url>http://www.jarvana.com/</url>-->
-        <!--</repository>-->
-        <!--<repository>-->
-            <!--<id>archiva.5</id>-->
-            <!--<url>http://repository.jboss.com/maven2/</url>-->
-        <!--</repository>-->
-        <!--<repository>-->
-            <!--<id>archiva.6</id>-->
-            <!--<url>http://mirrors.ibiblio.org/pub/mirrors/maven2/org/acegisecurity/</url>-->
-        <!--</repository>-->
-        <!--<repository>-->
-            <!--<id>archiva.7</id>-->
-            <!--<url>http://repository.codehaus.org/</url>-->
-        <!--</repository>-->
-        <!--<repository>-->
-            <!--<id>releases</id>-->
-            <!--<name>Releases</name>-->
-            <!--<url>https://oss.sonatype.org/content/repositories/releases</url>-->
-        <!--</repository>-->
-        <!--<repository>-->
-            <!--<id>lucene-solr-jenkins-branch_3x</id>-->
-            <!--<name>Lucene/Solr Jenkins branch_3x</name>-->
-            <!--<url>https://builds.apache.org/job/Lucene-Solr-Maven-3.x/lastSuccessfulBuild/artifact/maven_artifacts</url>-->
-            <!--<layout>default</layout>-->
-            <!--<snapshots>-->
-                <!--<enabled>true</enabled>-->
-            <!--</snapshots>-->
-        <!--</repository>-->
-    <!--</repositories>-->
+    <repositories>
+        <repository>
+            <id>archiva.default</id>
+            <url>http://repository.sonatype.org/</url>
+        </repository>
+        <repository>
+            <id>archiva.2</id>
+            <url>http://www.mvnbrowser.com/</url>
+        </repository>
+        <repository>
+            <id>archiva.3</id>
+            <url>http://www.mvnrepository.com/</url>
+        </repository>
+        <repository>
+            <id>archiva.4</id>
+            <url>http://www.jarvana.com/</url>
+        </repository>
+        <repository>
+            <id>archiva.5</id>
+            <url>http://repository.jboss.com/maven2/</url>
+        </repository>
+        <repository>
+            <id>archiva.6</id>
+            <url>http://mirrors.ibiblio.org/pub/mirrors/maven2/org/acegisecurity/</url>
+        </repository>
+        <repository>
+            <id>archiva.7</id>
+            <url>http://repository.codehaus.org/</url>
+        </repository>
+        <repository>
+            <id>releases</id>
+            <name>Releases</name>
+            <url>https://oss.sonatype.org/content/repositories/releases</url>
+        </repository>
+        <repository>
+            <id>lucene-solr-jenkins-branch_3x</id>
+            <name>Lucene/Solr Jenkins branch_3x</name>
+            <url>https://builds.apache.org/job/Lucene-Solr-Maven-3.x/lastSuccessfulBuild/artifact/maven_artifacts</url>
+            <layout>default</layout>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 
 </project>

@@ -9,4 +9,7 @@ public interface UserMapper {
        Account getUserByUserName(String userName);
 
     List<Account> getUserList();
+
+    Account getUser(Long id);
+
 }
